@@ -12,9 +12,10 @@ URL: http://jaspar.genereg.net/
 NeedsCompilation: no
 biocViews: AnnotationData, FunctionalAnnotation
 LazyData: no
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Suggests:
     knitr,
     rmarkdown,
-    TFBSTools (>= 1.23.1)
+    BiocStyle,
+    TFBSTools (>= 1.31.2)
 VignetteBuilder: knitr
