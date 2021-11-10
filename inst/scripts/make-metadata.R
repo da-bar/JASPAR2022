@@ -1,0 +1,27 @@
+meta <- data.frame(
+  Title = "JASPAR2022",
+  Description = paste0("Data package for JASPAR2022, ",
+                       "a popular database of transcription",
+                       "factor motif profiles"),
+  BiocVersion = "3.15",
+  Genome = NA,
+  SourceType = "MySQL",
+  SourceUrl = "https://jaspar.genereg.net/download/database/JASPAR2022.sqlite",
+  SourceVersion = "Nov 10 20121",
+  Species = NA,
+  TaxonomyId = NA,
+  Coordinate_1_based = NA,
+  DataProvider = paste0("JASPAR is brought to you by a collaborative effort of",
+                        "several research labs and it is licensed under the",
+                        "Creative Commons Attribution 4.0 International License"),
+  Maintainer = "Damir Baranasic <damir.baranasic@lms.mrc.ac.uk>",
+  RDataClass = "JASPAR2022",
+  DispatchClass = "FilePath",
+  ResourceName = "JASPAR2022",
+  Location_Prefix = "https://jaspar.genereg.net/",
+  RDataPath = "download/database/JASPAR2022.sqlite",
+  Tags = "AnnotationData:FunctionalAnnotation:AnnotationHub"
+)
+write.csv(meta, file=paste0(system.file("extdata",
+                                        package=pkgname, lib.loc=libname),
+                            "/", "metadata.csv", row.names=FALSE))

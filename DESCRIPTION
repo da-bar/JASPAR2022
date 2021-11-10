@@ -10,7 +10,7 @@ Depends: R (>= 3.6.0), methods
 License: GPL-2
 URL: http://jaspar.genereg.net/
 NeedsCompilation: no
-biocViews: AnnotationData, FunctionalAnnotation
+biocViews: AnnotationData, FunctionalAnnotation, AnnotationHub
 LazyData: no
 RoxygenNote: 7.1.1
 Suggests:
