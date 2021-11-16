@@ -1,11 +1,12 @@
 Package: JASPAR2022
 Type: Package
 Title: Data package for JASPAR database (version 2020)
-Version: 0.99.0
-Author: Damir Baranasic <damir.baranasic@lms.mrc.ac.uk>
-Maintainer: Damir Baranasic <damir.baranasic@lms.mrc.ac.uk>
+Version: 0.99.2
+Author@R: person(given = "Damir", family = "Baranasic"
+                 email = "damir.baranasic@lms.mrc.ac.uk", role = c("aut", "cre"),
+                 comment = c(ORCID = "0000-0001-5948-0932"))
 Description: Data package for JASPAR2022. To search this
-             databases, please use the package TFBSTools (>= 1.23.1).
+             databases, please use the package TFBSTools (>= 1.31.2).
 Depends: R (>= 3.6.0), methods
 License: GPL-2
 URL: http://jaspar.genereg.net/
