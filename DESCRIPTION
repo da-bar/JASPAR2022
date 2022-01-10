@@ -7,7 +7,7 @@ Authors@R: person(given = "Damir", family = "Baranasic", role = c("aut", "cre"),
                  comment = c(ORCID = "0000-0001-5948-0932"))
 Description: Data package for JASPAR2022. To search this
              databases, please use the package TFBSTools (>= 1.31.2).
-Depends: R (>= 3.6.0), methods
+Depends: R (>= 3.6.0), methods, BiocFileCache
 License: GPL-2
 URL: http://jaspar.genereg.net/
 NeedsCompilation: no
