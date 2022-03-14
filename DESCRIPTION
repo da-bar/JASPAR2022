@@ -13,13 +13,13 @@ Description: JASPAR is an open-access database containing manually curated,
              7 for insects), which corresponds to a 19% expansion over 
              the previous release. To search thisdatabases, please use the 
              package TFBSTools (>= 1.31.2).
-Depends: R (>= 3.6.0), methods, utils, BiocFileCache
+Depends: R (>= 3.6.0), methods, BiocFileCache, utils
 License: GPL-2
 URL: http://jaspar.genereg.net/
 NeedsCompilation: no
 biocViews: AnnotationData, FunctionalAnnotation, AnnotationHub
 LazyData: no
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Suggests:
     knitr,
     rmarkdown,
