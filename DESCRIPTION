@@ -1,7 +1,7 @@
 Package: JASPAR2022
 Type: Package
 Title: Data package for JASPAR database (version 2020)
-Version: 0.99.6
+Version: 0.99.7
 Authors@R: person(given = "Damir", family = "Baranasic", role = c("aut", "cre"),
                  email = "damir.baranasic@lms.mrc.ac.uk", 
                  comment = c(ORCID = "0000-0001-5948-0932"))
