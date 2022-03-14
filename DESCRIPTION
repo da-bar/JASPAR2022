@@ -5,9 +5,15 @@ Version: 0.99.5
 Authors@R: person(given = "Damir", family = "Baranasic", role = c("aut", "cre"),
                  email = "damir.baranasic@lms.mrc.ac.uk", 
                  comment = c(ORCID = "0000-0001-5948-0932"))
-Description: Data package for JASPAR2022. To search this
-             databases, please use the package TFBSTools (>= 1.31.2).
-Depends: R (>= 3.6.0), methods, BiocFileCache
+Description: JASPAR is an open-access database containing manually curated, 
+             non-redundant transcription factor (TF) binding profiles for 
+             TFs across six taxonomic groups. In this 9th release, we expanded 
+             the CORE collection with 341 new profiles 
+             (148 for plants, 101 for vertebrates, 85 for urochordates, and 
+             7 for insects), which corresponds to a 19% expansion over 
+             the previous release. To search thisdatabases, please use the 
+             package TFBSTools (>= 1.31.2).
+Depends: R (>= 3.6.0), methods, utils, BiocFileCache
 License: GPL-2
 URL: http://jaspar.genereg.net/
 NeedsCompilation: no

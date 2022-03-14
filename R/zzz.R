@@ -2,7 +2,7 @@
 .onLoad <- function(libname, pkgname){
   ns <- asNamespace(pkgname)
   path <- system.file("extdata", package=pkgname, lib.loc=libname)
-  metaData <- read.csv(paste0(path, "/metadata.csv"))
+  metaData <- utils::read.csv(paste0(path, "/metadata.csv"))
   url <- metaData$SourceUrl
   files <- bfcrpath(BiocFileCache(), url)
   for(i in seq_len(length(files))){
