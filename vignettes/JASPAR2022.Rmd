@@ -27,18 +27,9 @@ suppressPackageStartupMessages({
 
 # Introduction
 
-JASPAR (http://jaspar.genereg.net) is an open-access database of curated, non-redundant
-transcription factor (TF)-binding profiles stored as position frequency matrices (PFMs) for TFs
-across multiple species in six taxonomic groups. In this 8th release of JASPAR, the CORE
-collection has been expanded with 245 new PFMs (169 for vertebrates, 42 for plants, 17 for
-nematodes, 10 for insects, and 7 for fungi), and 157 PFMs were updated (125 for vertebrates,
-28 for plants, and 3 for insects). These new profiles represent an 18% expansion compared to
-the previous release. JASPAR 2020 comes with a novel collection of unvalidated TF-binding
-profiles for which our curators did not find orthogonal supporting evidence in the literature. This
-collection has a dedicated web form to engage the community in the curation of unvalidated TF-binding
-profiles.
+JASPAR (http://jaspar.genereg.net/) is an open-access database containing manually curated, non-redundant transcription factor (TF) binding profiles for TFs across six taxonomic groups. In this 9th release, we expanded the CORE collection with 341 new profiles (148 for plants, 101 for vertebrates, 85 for urochordates, and 7 for insects), which corresponds to a 19% expansion over the previous release. We added 298 new profiles to the Unvalidated collection when no orthogonal evidence was found in the literature. All the profiles were clustered to provide familial binding profiles for each taxonomic group. Moreover, we revised the structural classification of DNA binding domains to consider plant-specific TFs. This release introduces word clouds to represent the scientific knowledge associated with each TF. We updated the genome tracks of TFBSs predicted with JASPAR profiles in eight organisms; the human and mouse TFBS predictions can be visualized as native tracks in the UCSC Genome Browser. Finally, we provide a new tool to perform JASPAR TFBS enrichment analysis in user-provided genomic regions. All the data is accessible through the JASPAR website, its associated RESTful API, the R/Bioconductor data package, and a new Python package, pyJASPAR, that facilitates serverless access to the data.
 
-The easiest way to use the JASPAR2022 data package [@Fornes:2019] is by `TFBSTools` package interface [@Tan:2016], which provides functions to retrieve and manipulate data from the JASPAR database. This vignette demonstrates how to use those functions.
+The easiest way to use the JASPAR2022 data package [@10.1093/nar/gkab1113] is by `TFBSTools` package interface [@Tan:2016], which provides functions to retrieve and manipulate data from the JASPAR database. This vignette demonstrates how to use those functions.
 
 ```{r setup}
 library(JASPAR2022)
