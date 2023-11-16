@@ -6,7 +6,7 @@ meta <- data.frame(
   BiocVersion = "3.15",
   Genome = NA,
   SourceType = "MySQL",
-  SourceUrl = "https://jaspar.genereg.net/download/database/JASPAR2022.sqlite",
+  SourceUrl = "https://jaspar2022.genereg.net/download/database/JASPAR2022.sqlite",
   SourceVersion = "Nov 10 20121",
   Species = NA,
   TaxonomyId = NA,
@@ -18,7 +18,7 @@ meta <- data.frame(
   RDataClass = "JASPAR2022",
   DispatchClass = "FilePath",
   ResourceName = "JASPAR2022",
-  Location_Prefix = "https://jaspar.genereg.net/",
+  Location_Prefix = "https://jaspar2022.genereg.net/",
   RDataPath = "download/database/JASPAR2022.sqlite",
   Tags = "AnnotationData:FunctionalAnnotation:AnnotationHub"
 )
